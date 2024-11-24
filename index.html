@@ -1,28 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css" />
-  <title>Web Design | Pet Place</title>
-</head>
-<body>
-  <nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Pet Place</title>
+  </head>
+  <body>
+    <nav>
       <div class="nav__header">
-        <div class="nav__logo">
+        <div class="logo">
           <a href="#">Pet Place</a>
         </div>
         <div class="nav__menu__btn" id="menu-btn">
           <i class="ri-menu-line"></i>
         </div>
       </div>
-      <ul class="nav__links" id="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#store">Store</a></li>
-        <li><a href="#service">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
+      <ul class="MenuLinks" id="Menu-Links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Store</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Us</a></li>
       </ul>
     </nav>
-</body>
+    <header id="home">
+      <div class="section__container header__container">
+        <div class="header__content">
+          <h4>Welcome</h4>
+          <h1>Pet<br /><span>Doctor</span></h1>
+          <h2>We love pets like you do :)</h2>
+          <p>
+            From routine check-ups to specialized treatments, we're here to
+            ensure your pets lead happy, healthy lives.
+          </p>
+          <div class="header__btn">
+            <button>
+              Start Here!
+              <span><i class="ri-arrow-right-line"></i></span>
+            </button>
+          </div>
+        </div>
+        <div class="header__image">
+          <img
+            src="assets/header-bg.png" alt="header-bg" class="header__image-bg"/>
+          <img src="assets/header.png" alt="header" />
+        </div>
+      </div>
+      <div class="header__bottom"></div>
+    </header>
+  </body>
 </html>
