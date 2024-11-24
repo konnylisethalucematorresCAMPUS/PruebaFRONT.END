@@ -214,6 +214,125 @@ img.header__image-bg {
   max-width: 300px !important;
   z-index: -1;
 }
+/*--------- AQUI PONDRE LA PARTE 2 DE LA PAGINA ------------*/
+.section__subheader {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--text-light);
+  text-align: center;
+}
+.section__header {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: var(--text-dark);
+  text-align: center;
+  line-height: 3.5rem;
+}
+
+img {
+  display: flex;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+ul {
+  list-style: none;
+}
+
+.intro__grid {
+  margin-top: 4rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.intro__card {
+  text-align: center;
+}
+
+.intro__card div {
+  max-width: fit-content;
+  margin-inline: auto;
+  margin-bottom: 1rem;
+  padding: 2rem;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.intro__card:nth-child(1) div {
+  background-image: url("assets/intro-1-bg.png");
+}
+
+.intro__card:nth-child(2) div {
+  background-image: url("assets/intro-2-bg.png");
+}
+
+.intro__card:nth-child(3) div {
+  background-image: url("assets/intro-3-bg.png");
+}
+
+.intro__card div img {
+  width: unset;
+  height: 75px;
+}
+
+.intro__card h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.intro__card p {
+  margin-bottom: 2rem;
+  color: var(--text-light);
+}
+
+.intro__card a {
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  border: 2px solid;
+  border-radius: 5rem;
+  transition: 0.3s;
+}
+
+.intro__card:nth-child(1) a {
+  color: #ffc737;
+  border-color: #ffc737;
+}
+
+.intro__card:nth-child(1) a:hover {
+  color: var(--white);
+  background-color: #ffc737;
+}
+
+.intro__card:nth-child(2) a {
+  color: #257ae7;
+  border-color: #257ae7;
+}
+
+.intro__card:nth-child(2) a:hover {
+  color: var(--white);
+  background-color: #257ae7;
+}
+
+.intro__card:nth-child(3) a {
+  color: #cba9b6;
+  border-color: #cba9b6;
+}
+
+.intro__card:nth-child(3) a:hover {
+  color: var(--white);
+  background-color: #cba9b6;
+}
+
+  .intro__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
 
 
@@ -232,9 +351,7 @@ img.header__image-bg {
 
 
 
-
-
-
+/*ESTO ES PARTE DE EL MENU DE NAVEGACION */
 @media (width > 768px) {
   nav {
     position: static;
